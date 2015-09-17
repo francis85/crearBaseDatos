@@ -18,17 +18,16 @@ public class Main {
      */
     public static void main(String[] args) {
         CreateDataBase cdb = new CreateDataBase();
-        int reply = JOptionPane.showConfirmDialog(null, "¿Desea crear la bd?", "creacion de la bd", JOptionPane.YES_NO_OPTION);
+        int reply = JOptionPane.showConfirmDialog(null, "¿Desea crear la Base de Datos?", "Creación de la Base de Datos", JOptionPane.YES_NO_OPTION);
         if (reply == JOptionPane.YES_OPTION) {
-          if (cdb.createDB()) {
+            if (cdb.createDB()) {
                 JOptionPane.showMessageDialog(null, "Se creó exitosamente la base de datos: " + CreateDataBase.getDB_NAME());
             } else {
                 JOptionPane.showMessageDialog(null, "Hubo un error al crear la base de datos!!!");
             }
-        }
-        else {
-           JOptionPane.showMessageDialog(null, "Hasta Luego");
-           System.exit(0);
+        } else {
+            JOptionPane.showMessageDialog(null, "Hasta Luego");
+            System.exit(0);
         }
     }
 }
