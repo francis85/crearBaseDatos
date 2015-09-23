@@ -39,16 +39,6 @@ CREATE TABLE `cuotaFlorDeVida` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `cuotaFlorDeVida`
---
-
-LOCK TABLES `cuotaFlorDeVida` WRITE;
-/*!40000 ALTER TABLE `cuotaFlorDeVida` DISABLE KEYS */;
-INSERT INTO `cuotaFlorDeVida` VALUES (2,50.00,'2014-05-05',5,5),(3,100.00,'2015-06-18',8,7),(4,200.00,'2015-06-18',8,7);
-/*!40000 ALTER TABLE `cuotaFlorDeVida` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
 -- Table structure for table `cuotaSocial`
 --
 
@@ -69,16 +59,6 @@ CREATE TABLE `cuotaSocial` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `cuotaSocial`
---
-
-LOCK TABLES `cuotaSocial` WRITE;
-/*!40000 ALTER TABLE `cuotaSocial` DISABLE KEYS */;
-INSERT INTO `cuotaSocial` VALUES (179,7,'2014-07-01','2014-09-24',20.00,'7/2014'),(180,3,'2014-07-01','2014-09-24',15.00,'7/2014'),(181,5,'2014-07-01',NULL,5.00,'7/2014'),(182,6,'2014-07-01',NULL,5.00,'7/2014'),(183,10,'2014-07-01','2015-03-07',5.00,'7/2014'),(184,4,'2014-07-01',NULL,5.00,'7/2014'),(185,2,'2014-07-01',NULL,5.00,'7/2014'),(186,9,'2014-07-01',NULL,15.00,'7/2014'),(187,7,'2014-08-01','2014-09-24',20.00,'8/114'),(188,7,'2014-09-01','2014-09-24',20.00,'9/2014'),(189,3,'2014-08-01','2014-09-24',15.00,'8/2014'),(190,5,'2014-08-01',NULL,5.00,'8/2014'),(191,6,'2014-08-01',NULL,5.00,'8/2014'),(192,10,'2014-08-01','2015-03-07',5.00,'8/2014'),(193,4,'2014-08-01',NULL,5.00,'8/2014'),(194,2,'2014-08-01',NULL,5.00,'8/2014'),(195,9,'2014-08-01',NULL,15.00,'8/2014'),(196,3,'2014-09-01','2014-10-06',15.00,'9/2014'),(197,3,'2014-10-01','2014-10-06',15.00,'10/2014'),(198,7,'2014-10-01',NULL,20.00,'10/2014'),(199,5,'2014-10-01',NULL,5.00,'10/2014'),(200,6,'2014-10-01','2014-12-14',5.00,'10/2014'),(201,10,'2014-10-01','2015-03-07',5.00,'10/2014'),(202,4,'2014-10-01',NULL,5.00,'10/2014'),(203,2,'2014-10-01',NULL,5.00,'10/2014'),(204,9,'2014-10-01',NULL,15.00,'10/2014'),(205,7,'2014-12-01','2015-05-25',2.00,'12/2014'),(206,3,'2014-12-01',NULL,15.00,'12/2014'),(207,5,'2014-12-01',NULL,5.00,'12/2014'),(208,6,'2014-12-01',NULL,5.00,'12/2014'),(209,10,'2014-12-01','2015-03-07',5.00,'12/2014'),(210,8,'2014-12-01',NULL,20.00,'12/2014'),(211,4,'2014-12-01',NULL,5.00,'12/2014'),(212,9,'2014-12-01',NULL,15.00,'12/2014'),(213,7,'2015-03-01',NULL,20.00,'3/2015'),(214,3,'2015-03-01',NULL,20.00,'3/2015'),(215,5,'2015-03-01',NULL,15.00,'3/2015'),(216,7,'2015-03-01',NULL,20.00,'3/2015'),(217,5,'2015-03-01',NULL,15.00,'3/2015'),(218,7,'2015-03-01',NULL,20.00,'3/2015'),(219,5,'2015-03-01',NULL,15.00,'3/2015'),(220,7,'2015-03-01',NULL,20.00,'3/2015'),(221,5,'2015-03-01',NULL,15.00,'3/2015'),(222,7,'2015-03-01',NULL,20.00,'3/2015'),(223,5,'2015-03-01',NULL,15.00,'3/2015'),(224,7,'2015-03-01',NULL,20.00,'3/2015'),(225,5,'2015-03-01',NULL,15.00,'3/2015'),(226,7,'2015-03-01',NULL,20.00,'3/2015'),(227,5,'2015-03-01',NULL,15.00,'3/2015'),(228,7,'2015-03-01',NULL,20.00,'3/2015'),(229,5,'2015-03-01',NULL,15.00,'3/2015'),(230,7,'2015-03-01',NULL,20.00,'3/2015'),(231,5,'2015-03-01',NULL,15.00,'3/2015'),(232,11,'2015-03-01',NULL,15.00,'3/2015'),(233,6,'2015-03-01',NULL,5.00,'3/2015'),(234,10,'2015-03-01',NULL,5.00,'3/2015'),(235,8,'2015-03-01',NULL,20.00,'3/2015'),(236,4,'2015-03-01',NULL,5.00,'3/2015'),(237,9,'2015-03-01',NULL,15.00,'3/2015'),(238,7,'2015-04-01','2015-05-26',20.00,'4/2015'),(239,7,'2015-05-01','2015-05-26',20.00,'5/2015'),(240,7,'2015-06-01','2015-05-26',20.00,'6/2015'),(241,7,'2015-07-01','2015-05-26',20.00,'7/2015');
-/*!40000 ALTER TABLE `cuotaSocial` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
 -- Table structure for table `donaciones`
 --
 
@@ -95,16 +75,6 @@ CREATE TABLE `donaciones` (
   PRIMARY KEY (`iddonaciones`)
 ) ENGINE=InnoDB AUTO_INCREMENT=61 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `donaciones`
---
-
-LOCK TABLES `donaciones` WRITE;
-/*!40000 ALTER TABLE `donaciones` DISABLE KEYS */;
-INSERT INTO `donaciones` VALUES (3,'JUAN','PEREZ',99.00,'2014-01-06',31720700),(4,'KURT','COBAIN',50.00,'2014-06-04',NULL),(5,'ALGUIEN','ALGUIEN',300.00,'2013-12-28',NULL),(14,'LEANDRO','MARO',22.00,'2014-09-06',99999999),(41,'GRACIELA','BERNAOLA',670.00,'0014-12-01',17387705),(58,'JUAN','PEREZ',22.00,'2015-05-25',31720700),(60,'ANONIMO','ANONIMO',1231.00,'2015-06-14',NULL);
-/*!40000 ALTER TABLE `donaciones` ENABLE KEYS */;
-UNLOCK TABLES;
 
 --
 -- Table structure for table `eventos`
@@ -125,16 +95,6 @@ CREATE TABLE `eventos` (
   CONSTRAINT `fk_eventos_1` FOREIGN KEY (`motivo`) REFERENCES `tipoEvento` (`idTipoEvento`) ON DELETE NO ACTION ON UPDATE NO ACTION
 ) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `eventos`
---
-
-LOCK TABLES `eventos` WRITE;
-/*!40000 ALTER TABLE `eventos` DISABLE KEYS */;
-INSERT INTO `eventos` VALUES (1,6,'2014-05-14',1600.00,1200.00,200.00),(3,6,'2014-06-10',150.00,150.00,150.00),(6,6,'2014-06-07',300.00,200.00,100.00),(8,6,'2014-09-02',1234.00,43.00,55.00),(9,6,'2014-09-29',2323.00,2323.00,2323.00),(11,6,'2014-10-20',120.34,45.00,24.99),(12,6,'2015-05-30',90.00,800.00,1300.00),(13,6,'2015-06-07',45.00,45.00,98.00);
-/*!40000 ALTER TABLE `eventos` ENABLE KEYS */;
-UNLOCK TABLES;
 
 --
 -- Table structure for table `florVida`
@@ -158,16 +118,6 @@ CREATE TABLE `florVida` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `florVida`
---
-
-LOCK TABLES `florVida` WRITE;
-/*!40000 ALTER TABLE `florVida` DISABLE KEYS */;
-INSERT INTO `florVida` VALUES ('ROBERTO','AGUIRRE',107,'FRONDIZI 142','2014-05-19','421288',5),('SR. TEST 1','NOMBRE TEST 1',110,'MONTEAGUDO 343','2014-05-01','123456789',6),('ORTEGA Y GASES','NOMBRE TEST 2',107,'NICARAGUA 567','2014-05-02','987654312',7),('SEÑOS','QUEMURIO',106,'FRONDIZI 1544','2014-09-11','421288',8),('MENDEZ','GRACIELA',107,'ALVEAR XX','2050-07-20','03624454545',10),('BERNAOLA','GUSTAVO',107,'FFF','2015-05-18','0362422222',11),('PERES','PEDRO',107,'XX','2015-06-17','03624345678',15);
-/*!40000 ALTER TABLE `florVida` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
 -- Table structure for table `gastos`
 --
 
@@ -185,16 +135,6 @@ CREATE TABLE `gastos` (
   CONSTRAINT `gastos_ibfk_2` FOREIGN KEY (`tipo_gasto_idtipo_gasto`) REFERENCES `tipoGasto` (`idtipo_gasto`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB AUTO_INCREMENT=26 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `gastos`
---
-
-LOCK TABLES `gastos` WRITE;
-/*!40000 ALTER TABLE `gastos` DISABLE KEYS */;
-INSERT INTO `gastos` VALUES (12,50.00,'2014-05-29','PARA LIMPIEZA DEL BAÑO',6),(13,150.00,'2014-05-29','PARA LA LIMPIEZA DEL BAÑO',6),(15,50.00,'2014-06-04','FACTURAS PARA EL DESAYUNO',7),(17,90.55,'2014-06-14','UN FLORERO',6),(18,4000.00,'2013-08-29',NULL,7),(19,5454.00,'2012-08-29',NULL,6),(20,12.00,'2014-09-03','EN POLVO ALA CON MICROCRISTALES PIPICUCU',6),(22,123.00,'2014-10-01','XXXXXX',6),(23,3434.00,'2015-01-24',NULL,9),(24,5454.00,'2015-01-24',NULL,6),(25,900.00,'2015-05-10',NULL,9);
-/*!40000 ALTER TABLE `gastos` ENABLE KEYS */;
-UNLOCK TABLES;
 
 --
 -- Table structure for table `localidades`
@@ -241,16 +181,6 @@ CREATE TABLE `logUsuario` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `logUsuario`
---
-
-LOCK TABLES `logUsuario` WRITE;
-/*!40000 ALTER TABLE `logUsuario` DISABLE KEYS */;
-INSERT INTO `logUsuario` VALUES (1,0,'2015-03-06 11:36:05','calcuta'),(2,0,'2015-03-06 11:37:23','calcuta'),(3,0,'2015-03-07 10:27:27','calcuta'),(4,0,'2015-03-07 10:42:11','calcuta'),(5,0,'2015-03-07 11:30:44','calcuta'),(6,0,'2015-03-07 11:34:40','calcuta'),(7,0,'2015-03-07 11:40:51','calcuta'),(8,0,'2015-03-07 11:41:55','calcuta'),(9,0,'2015-03-07 11:43:21','calcuta'),(10,0,'2015-03-07 11:45:14','calcuta'),(11,0,'2015-03-07 11:48:53','calcuta'),(12,0,'2015-03-07 11:51:55','calcuta'),(13,0,'2015-03-07 11:54:04','calcuta'),(14,0,'2015-03-07 11:56:27','calcuta'),(15,0,'2015-03-07 11:58:39','CALCUTA'),(16,0,'2015-03-07 12:05:06','CALCUTA'),(17,0,'2015-03-07 16:55:52','calcuta'),(18,0,'2015-03-07 17:10:23','calcuta'),(19,0,'2015-03-07 17:37:45','calcuta'),(20,0,'2015-03-07 17:55:43','CALCUTA'),(21,0,'2015-03-07 17:56:38','CALCUTA'),(22,0,'2015-03-07 17:58:50','calcuta'),(23,0,'2015-03-07 18:05:25','calcuta'),(24,0,'2015-03-07 18:34:29','calcuta'),(25,0,'2015-03-07 18:40:15','calcuta'),(26,0,'2015-03-07 18:42:59','calcuta'),(27,0,'2015-03-07 18:57:28','calcuta'),(28,0,'2015-03-07 19:05:59','calcuta'),(29,0,'2015-03-07 19:23:51','calcuta'),(30,0,'2015-03-07 19:40:04','calcuta'),(31,0,'2015-03-07 19:43:29','calcuta'),(32,0,'2015-03-07 19:45:42','calcuta'),(33,0,'2015-03-07 20:14:30','calcuta'),(34,0,'2015-03-07 20:21:40','calcuta'),(35,0,'2015-03-07 20:47:36','calcuta'),(36,0,'2015-03-08 10:19:36','calcuta'),(37,0,'2015-03-08 10:25:18','calcuta'),(38,0,'2015-03-08 10:27:12','calcuta'),(39,0,'2015-03-08 10:30:33','calcuta'),(40,0,'2015-03-08 10:37:59','calcuta'),(41,0,'2015-03-08 10:39:46','calcuta'),(42,0,'2015-03-08 10:40:44','calcuta'),(43,0,'2015-03-08 11:02:26','calcuta'),(44,0,'2015-03-08 11:03:18','calcuta'),(45,0,'2015-03-08 11:03:43','calcuta'),(46,0,'2015-03-08 11:05:24','calcuta'),(47,0,'2015-03-08 11:06:23','calcuta'),(48,0,'2015-03-10 20:17:20','calcuta'),(49,0,'2015-03-10 20:43:10','calcuta'),(50,0,'2015-03-10 20:44:02','calcuta'),(51,0,'2015-03-10 20:54:58','calcuta'),(52,0,'2015-03-10 21:02:56','calcuta'),(53,0,'2015-03-10 21:07:51','calcuta'),(54,0,'2015-03-10 21:10:45','calcuta'),(55,0,'2015-03-10 21:14:50','calcuta'),(56,0,'2015-03-10 21:22:18','calcuta'),(57,0,'2015-03-10 21:28:53','calcuta'),(58,0,'2015-03-10 21:32:17','calcuta'),(59,0,'2015-03-10 21:43:34','calcuta'),(60,0,'2015-03-10 21:45:35','calcuta'),(61,0,'2015-03-10 21:47:47','calcuta'),(62,0,'2015-03-10 21:50:05','calcuta'),(63,0,'2015-03-10 21:52:17','calcuta'),(64,0,'2015-03-10 22:06:51','calcuta'),(65,0,'2015-03-11 10:12:41','calcuta'),(66,0,'2015-03-11 10:18:59','calcuta'),(67,0,'2015-03-11 10:29:29','calcuta'),(68,0,'2015-03-11 10:31:08','calcuta'),(69,0,'2015-03-11 10:36:18','calcuta'),(70,0,'2015-03-11 10:39:00','calcuta'),(71,0,'2015-03-11 10:43:39','calcuta'),(72,0,'2015-03-11 10:47:04','calcuta'),(73,0,'2015-03-11 10:54:58','calcuta'),(74,0,'2015-03-11 10:56:04','calcuta'),(75,0,'2015-03-11 10:59:06','calcuta'),(76,0,'2015-03-11 11:04:20','calcuta'),(77,0,'2015-03-11 11:07:09','calcuta'),(78,0,'2015-03-11 11:10:53','calcuta'),(79,0,'2015-03-11 11:20:06','calcuta'),(80,0,'2015-03-11 11:27:18','calcuta'),(81,0,'2015-03-11 11:29:46','calcuta'),(82,0,'2015-03-11 11:35:20','calcuta'),(83,0,'2015-03-11 11:38:54','calcuta'),(84,0,'2015-03-11 12:46:17','CALCUTA'),(85,0,'2015-03-12 18:18:44','CALCUTA'),(86,0,'2015-03-27 23:27:44','calcuta'),(87,0,'2015-03-27 23:32:14','calcuta'),(88,0,'2015-03-27 23:39:17','calcuta'),(89,0,'2015-03-27 23:43:17','calcuta'),(90,0,'2015-03-28 00:22:04','calcuta'),(91,0,'2015-03-28 00:24:34','calcuta'),(92,0,'2015-03-28 00:30:47','calcuta'),(93,0,'2015-03-28 00:41:47','calcuta'),(94,0,'2015-03-29 20:53:41','calcuta'),(95,0,'2015-03-29 20:53:48','calcuta'),(96,0,'2015-03-29 20:53:54','calcuta'),(97,0,'2015-03-29 20:56:12','calcuta'),(98,0,'2015-04-29 20:16:31','calcuta'),(99,0,'2015-05-05 18:49:49','calcuta'),(100,0,'2015-05-18 19:18:51','calcuta'),(101,0,'2015-05-18 19:22:09','calcuta'),(102,0,'2015-05-18 19:22:10','calcuta'),(103,0,'2015-05-18 19:25:48','calcuta'),(104,0,'2015-05-18 19:31:07','calcuta'),(105,0,'2015-05-18 19:35:09','calcuta'),(106,0,'2015-05-18 19:39:12','calcuta'),(107,0,'2015-05-18 19:42:00','calcuta'),(108,0,'2015-05-18 19:43:44','calcuta'),(109,0,'2015-05-18 19:46:58','calcuta'),(110,0,'2015-05-18 19:49:27','calcuta'),(111,0,'2015-05-18 19:56:24','c'),(112,0,'2015-05-18 20:00:13','c'),(113,0,'2015-05-18 20:03:11','c'),(114,0,'2015-05-18 20:05:02','c'),(115,0,'2015-05-18 20:06:45','c'),(116,0,'2015-05-18 20:10:37','c'),(117,0,'2015-05-18 20:12:08','c'),(118,0,'2015-05-18 20:16:28','c'),(119,0,'2015-05-18 20:18:14','c'),(120,0,'2015-05-18 20:21:05','c'),(121,0,'2015-05-18 20:22:58','c'),(122,0,'2015-05-18 20:24:36','c'),(123,0,'2015-05-18 20:25:12','c'),(124,0,'2015-05-18 20:27:24','c'),(125,0,'2015-05-18 20:28:09','c'),(126,0,'2015-05-18 20:29:11','c'),(127,0,'2015-05-18 20:31:10','c'),(128,0,'2015-05-18 20:33:01','c'),(129,0,'2015-05-18 20:35:11','c'),(130,0,'2015-05-18 20:39:36','c'),(131,0,'2015-05-18 20:40:16','c'),(132,0,'2015-05-18 20:41:05','c'),(133,0,'2015-05-18 20:43:57','c'),(134,0,'2015-05-18 20:49:21','c'),(135,0,'2015-05-18 20:55:37','c'),(136,0,'2015-05-18 21:43:25','c'),(137,0,'2015-05-19 11:10:36','C'),(138,0,'2015-05-19 11:20:16','C'),(139,0,'2015-05-19 11:26:36','C'),(140,0,'2015-05-19 16:33:29','calcuta'),(141,0,'2015-05-19 18:29:23','calcuta'),(142,0,'2015-05-19 20:37:47','calcuta'),(143,0,'2015-05-19 20:39:13','calcuta'),(144,0,'2015-05-19 20:45:07','calcuta'),(145,0,'2015-05-25 11:25:54','calcuta'),(146,0,'2015-05-25 11:32:47','calcuta'),(147,0,'2015-05-25 11:36:47','calcuta'),(148,0,'2015-05-25 11:57:23','calcuta'),(149,0,'2015-05-25 12:03:07','calcuta'),(150,0,'2015-05-25 12:06:32','calcuta'),(151,0,'2015-05-25 12:12:50','calcuta'),(152,0,'2015-05-25 12:15:24','calcuta'),(153,0,'2015-05-25 12:18:42','calcuta'),(154,0,'2015-05-25 12:22:40','calcuta'),(155,0,'2015-05-25 12:24:36','calcuta'),(156,0,'2015-05-25 12:37:58','calcuta'),(157,0,'2015-05-25 12:42:33','calcuta'),(158,0,'2015-05-25 12:44:03','calcuta'),(159,0,'2015-05-25 12:46:11','calcuta'),(160,0,'2015-05-25 12:47:44','calcuta'),(161,0,'2015-05-25 12:53:49','calcuta'),(162,0,'2015-05-25 12:58:37','calcuta'),(163,0,'2015-05-25 13:03:59','calcuta'),(164,0,'2015-05-25 18:51:57','calcuta'),(165,0,'2015-05-25 18:59:31','calcuta'),(166,0,'2015-05-25 19:00:52','calcuta'),(167,0,'2015-05-25 19:03:45','calcuta'),(168,0,'2015-05-25 19:04:46','calcuta'),(169,0,'2015-05-25 19:26:58','calcuta'),(170,0,'2015-05-25 19:29:20','calcuta'),(171,0,'2015-05-25 21:01:20','calcuta'),(172,0,'2015-05-25 21:02:43','calcuta'),(173,0,'2015-05-25 21:04:08','calcuta'),(174,0,'2015-05-25 21:22:00','calcuta'),(175,0,'2015-05-26 21:12:37','calcuta'),(176,0,'2015-05-26 21:16:39','calcuta'),(177,0,'2015-05-26 21:33:26','calcuta'),(178,0,'2015-05-26 21:39:22','calcuta'),(179,0,'2015-05-26 21:48:05','calcuta'),(180,0,'2015-05-26 21:53:48','calcuta'),(181,0,'2015-05-26 21:56:34','calcuta'),(182,0,'2015-05-26 22:00:05','calcuta'),(183,0,'2015-05-26 22:05:06','calcuta'),(184,0,'2015-05-26 22:08:15','calcuta'),(185,0,'2015-05-30 09:46:28','calcuta'),(186,0,'2015-05-30 18:57:04','calcuta'),(187,0,'2015-05-30 19:09:42','calcuta'),(188,0,'2015-05-30 19:13:40','c'),(189,0,'2015-05-30 19:20:33','c'),(190,0,'2015-05-30 19:21:29','c'),(191,0,'2015-05-30 19:23:07','c'),(192,0,'2015-05-30 19:24:11','c'),(193,0,'2015-05-30 19:25:49','c'),(194,0,'2015-05-30 19:27:05','c'),(195,0,'2015-05-30 19:30:31','c'),(196,0,'2015-05-30 19:34:19','c'),(197,0,'2015-05-30 19:35:20','c'),(198,0,'2015-05-30 19:37:54','c'),(199,0,'2015-05-30 19:46:20','c'),(200,0,'2015-05-31 21:28:55','calcuta'),(201,0,'2015-05-31 21:37:04','calcuta'),(202,0,'2015-05-31 21:41:13','calcuta'),(203,0,'2015-05-31 21:47:04','calcuta'),(204,0,'2015-05-31 21:51:53','calcuta'),(205,0,'2015-05-31 21:52:41','c'),(206,0,'2015-05-31 21:53:50','c'),(207,0,'2015-06-07 22:09:38','calcuta'),(208,0,'2015-06-08 20:07:14','calcuta'),(209,0,'2015-06-08 20:10:32','calcuta'),(210,0,'2015-06-08 20:12:10','calcuta'),(211,0,'2015-06-08 20:13:22','c'),(212,0,'2015-06-08 20:14:45','c'),(213,0,'2015-06-08 20:16:10','c'),(214,0,'2015-06-08 20:16:54','c'),(215,0,'2015-06-08 20:18:48','c'),(216,0,'2015-06-14 12:21:50','c'),(217,0,'2015-06-14 12:27:06','c'),(218,0,'2015-06-14 12:28:49','c'),(219,0,'2015-06-14 12:31:12','c'),(220,0,'2015-06-18 17:03:06','c'),(221,0,'2015-06-18 17:06:28','c'),(222,0,'2015-06-18 17:09:37','c'),(223,0,'2015-06-18 21:04:54','calcuta'),(224,0,'2015-06-18 21:14:15','c'),(225,0,'2015-06-18 21:18:18','C'),(226,0,'2015-06-18 21:20:23','C'),(227,0,'2015-06-18 21:21:52','C'),(228,0,'2015-06-18 21:23:10','C'),(229,0,'2015-06-18 21:46:56','GLMENDEZ'),(230,0,'2015-06-18 21:48:29','ULTIMO'),(231,0,'2015-08-15 10:27:22','ultimo'),(232,0,'2015-08-15 11:12:55','ultimo'),(233,0,'2015-08-15 11:59:31','f'),(234,0,'2015-08-15 12:02:47','f'),(235,0,'2015-08-15 12:04:23','f'),(236,0,'2015-08-15 12:10:06','f'),(237,0,'2015-08-15 12:29:34','f'),(238,0,'2015-08-15 12:33:44','f'),(239,0,'2015-08-15 12:36:07','f'),(240,0,'2015-08-15 13:00:02','f'),(241,0,'2015-08-15 13:01:45','f'),(242,0,'2015-08-15 13:04:51','f'),(243,0,'2015-08-17 19:04:09','f'),(244,0,'2015-08-17 19:13:05','f'),(245,0,'2015-08-17 19:14:28','f'),(246,0,'2015-08-17 19:17:38','f'),(247,1,'2015-08-17 19:19:01','f');
-/*!40000 ALTER TABLE `logUsuario` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
 -- Table structure for table `provincias`
 --
 
@@ -292,16 +222,6 @@ CREATE TABLE `relacSocDifuntos` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `relacSocDifuntos`
---
-
-LOCK TABLES `relacSocDifuntos` WRITE;
-/*!40000 ALTER TABLE `relacSocDifuntos` DISABLE KEYS */;
-INSERT INTO `relacSocDifuntos` VALUES (5,5),(8,7),(23,15);
-/*!40000 ALTER TABLE `relacSocDifuntos` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
 -- Table structure for table `socios`
 --
 
@@ -336,16 +256,6 @@ CREATE TABLE `socios` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `socios`
---
-
-LOCK TABLES `socios` WRITE;
-/*!40000 ALTER TABLE `socios` DISABLE KEYS */;
-INSERT INTO `socios` VALUES (2,4,32555666,'M','FRANCISCO','VIOLA','20-32555666-9',8,'franci@gmail.com','3624565666','','2014-05-29',107,'VIUDA DE ROSS 250','2015-05-19',1,0,0),(3,1,43434343,'M','LEANDRO','MARO','20-01234567-5',2,'lea@correo.com','3626767676','','1986-05-11',107,'JULIO A ROCA','0000-00-00',1,0,0),(4,4,33687634,'M','LUIS','VELAZCO','20-33687634-7',7,'luisvrcia@gmail.comasd','421288','','2014-05-22',107,'FRONDIZI 1544',NULL,1,0,0),(5,3,32874429,'F','MATIASS','MARTURET','20-32456789-6',3,'matias@proyecto.com.ar','123456789','','1985-05-16',32,'AV. SIEMPRE VIVAS 123',NULL,1,0,0),(6,4,33399887,'F','MARIA EUGENIA','NUÑEZ','27-33399887-9',4,'eugeiq@gmail.com','','','1987-09-02',110,'CRISTOFFANI 2135','0000-00-00',1,0,0),(7,5,1234567,'F','ASD','ASD','27-01234567-9',1,'asd','','','2014-05-13',123,'ASD','0000-00-00',1,1,0),(8,1,32456789,'F','PRUEBA','PRUEBA SOCIO 1','27-32888555-2',6,'PRUEBASOCIO@PRUEBA.COM','123456789','','1972-02-10',108,'AV. LIBERTADOR 4567',NULL,1,0,0),(9,1,99999999,'F','ROXANA','VIOLA','27-33687634-1',9,'roxi@hotmail.com','','','2014-06-09',276,'FRONDIZI 132','0000-00-00',1,0,1),(10,1,31720700,'M','JUAN','PEREZ','20-32888555-8',5,'juan@hotmail.com','3624715014','','1986-10-16',570,'9 DE JULIO','0000-00-00',1,0,1),(11,3,15151515,'M','DANIEL','MASAT','20-15151515-1',10,NULL,NULL,NULL,'2015-03-07',202,'SANTA FE 250',NULL,1,0,0),(12,1,17387705,'M','GRACIELA','BERNAOLA','20-17387705-7',11,NULL,'','','1993-05-01',113,'ZZZZZZ',NULL,1,0,0),(13,1,31720700,'M','JUAN','PEREZ','20-32888555-8',12,'JUAN@HOTMAIL.COM','3624715014',NULL,NULL,107,'9 DE JULIO',NULL,1,0,1);
-/*!40000 ALTER TABLE `socios` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
 -- Table structure for table `sociosFlorVida`
 --
 
@@ -371,16 +281,6 @@ CREATE TABLE `sociosFlorVida` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `sociosFlorVida`
---
-
-LOCK TABLES `sociosFlorVida` WRITE;
-/*!40000 ALTER TABLE `sociosFlorVida` DISABLE KEYS */;
-INSERT INTO `sociosFlorVida` VALUES (5,'FRANCO','SALVADOR',107,'FRONDIZI 15422','521445','20-01212437-7','M',NULL,NULL,1212437),(8,'ESTEBAN','ACASUSO',107,'LAS HERAS 123','454477',NULL,'M',NULL,NULL,NULL),(21,'NUÑEZ','MARIA EUGENIA',107,'CRISTOFFANI 2135',NULL,'27-33399887-9','F','eugeiq@gmail.com',NULL,33399887),(23,'BERNAOLA','GRACIELA',113,'ZZZZZZ',NULL,'20-17387705-7','M',NULL,NULL,17387705),(24,'MARTURET','MATIASS',32,'AV. SIEMPRE VIVAS 123','123456789','20-32456789-6','F','MATIAS@PROYECTO.COM.AR',NULL,32874429),(25,'ASD','ASD',123,'ASD',NULL,'27-01234567-9','F','ASD',NULL,1234567),(26,'ASD','ASD',123,'ASD',NULL,'27-01234567-9','F','ASD',NULL,1234567),(27,'ASD','ASD',123,'ASD',NULL,'27-01234567-9','F','ASD',NULL,1234567);
-/*!40000 ALTER TABLE `sociosFlorVida` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
 -- Table structure for table `tipoEvento`
 --
 
@@ -393,16 +293,6 @@ CREATE TABLE `tipoEvento` (
   PRIMARY KEY (`idTipoEvento`)
 ) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `tipoEvento`
---
-
-LOCK TABLES `tipoEvento` WRITE;
-/*!40000 ALTER TABLE `tipoEvento` DISABLE KEYS */;
-INSERT INTO `tipoEvento` VALUES (6,'RECAUDACION DE FONDOS'),(7,'CUMPLEAÑOS FUNDACIÓN'),(8,'MISA PARA RECACUDACIÓN DE FONDOS'),(9,'DIA DE LA INDEPENDENCIA');
-/*!40000 ALTER TABLE `tipoEvento` ENABLE KEYS */;
-UNLOCK TABLES;
 
 --
 -- Table structure for table `tipoGasto`
@@ -419,16 +309,6 @@ CREATE TABLE `tipoGasto` (
   PRIMARY KEY (`idtipo_gasto`)
 ) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `tipoGasto`
---
-
-LOCK TABLES `tipoGasto` WRITE;
-/*!40000 ALTER TABLE `tipoGasto` DISABLE KEYS */;
-INSERT INTO `tipoGasto` VALUES (5,'NOS REUNIMOS CON LAS SEÑORAS','COMISIÓN','FACTURAS'),(6,'JABON EN POLVO','HOGAR','JABON'),(7,'ELTOS DE LIMPIEZA PARA EL HOGAR.','COMISIÓN','LIMPIEZA VARIOS'),(8,'TE PARA UN EVENTO','COMISIÓN','TE'),(9,'SABANAS','HOGAR','SABANAS');
-/*!40000 ALTER TABLE `tipoGasto` ENABLE KEYS */;
-UNLOCK TABLES;
 
 --
 -- Table structure for table `tipoSocio`
@@ -476,7 +356,7 @@ CREATE TABLE `usuario` (
 
 LOCK TABLES `usuario` WRITE;
 /*!40000 ALTER TABLE `usuario` DISABLE KEYS */;
-INSERT INTO `usuario` VALUES (15,'ultimo','1234'),(16,'f','f');
+INSERT INTO `usuario` VALUES (15,'admin','admin'),(16,'calcuta','calcuta');
 /*!40000 ALTER TABLE `usuario` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
