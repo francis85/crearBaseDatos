@@ -20,8 +20,8 @@ import java.util.logging.Logger;
 public class CreateDataBase {
 
     private static final String DB_NAME = "madreTeresa";
-    private static final String DB_USER = "root";
-    private static final String DB_PASS = "root";
+    private static final String DB_USER = "calcuta";
+    private static final String DB_PASS = "calcuta";
     private static final String FILE_RESTORE = "calcuta.sql";
     private static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
     private static final String DB_URL = "jdbc:mysql://localhost/";
